@@ -2,6 +2,6 @@
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
 
-/.vs/CleanArch.Package
-/Domain/bin/Debug/net8.0
-/Domain/obj
+/.vs
+**/bin
+**/obj
