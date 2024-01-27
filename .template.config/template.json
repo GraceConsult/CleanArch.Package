@@ -1,0 +1,38 @@
+{
+    "$schema": "http://json.schemastore.org/template",
+    "author": "Grace Consult",
+    "classifications": [ "Web", "WebApi" ],
+    "identity": "GraceConsult.CleanArch.Template",
+    "name": "Grace Consult Clean Architecture solution",
+    "shortName": "gc-cleanarch",
+    "tags": {
+        "language": "C#",
+        "type": "project"
+    },
+    "sourceName": "`CleanArch",
+    "preferNameDirectory": true,
+    "sources": [
+        {
+        "source": "./",
+        "target": "./",
+        "exclude": [
+            "**/nuget.config",
+            "**/LICENSE",
+            "**/.gitattributes",
+            "**/.gitignore",
+            "**/*.nupkg",
+            "**/[Bb]in/**",
+            "**/[Oo]bj/**",
+            ".template.config/**/*",
+            ".vs/**/*",
+            "**/*.filelist",
+            "**/*.user",
+            "**/*.lock.json",
+            "**/.git/**",
+            "**/.github/**",
+            "*.nuspec",
+            "**/node_modules/**"
+        ]
+        }
+    ]  
+}

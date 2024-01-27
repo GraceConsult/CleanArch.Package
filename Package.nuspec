@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <id>GraceConsult.CleanArch.Template</id>
+    <version>1.0.0</version>
+    <authors>Grace Consult</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <!-- <icon>icon.png</icon> -->
+    <projectUrl>https://github.com/GraceConsult/CleanArch.Package</projectUrl>
+    <repository type="git" url="https://github.com/GraceConsult/CleanArch.Package" branch="main" />
+    <description>Grace Consult Clean Architecture solution template</description>
+    <readme>docs\README.md</readme>
+    <copyright>$copyright$</copyright>
+    <tags>dotnet-core csharp clean-architecture template</tags>
+  </metadata>
+  <files>
+    <file src="**" exclude="**\bin\**\*;**\obj\**\*;**\*.user;**\*.lock.json;**\.DS_Store;**\.git\**\*;**\.github\**\*;**\.vs\**\*;**\*LICENSE;**\*.gitattributes;**\*README.md;**\*.gitignore;**\*nuget.config;" target="/content" />
+    <file src="README.md" target="docs\" />
+  </files>
+</package>
